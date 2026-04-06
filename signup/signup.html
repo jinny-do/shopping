@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./signup.css" />
+    <title>test7-signup</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="signup">
+        <h1>SIGNUP</h1>
+
+        <form action="">
+          <div class="signup-form">
+            <div class="user-name user">
+              <label for="name" class="req">이름</label>
+              <input
+                type="text"
+                id="name"
+                required
+                placeholder="이름을 입력해주세요"
+              />
+            </div>
+
+            <div class="user-email user">
+              <label for="email" class="req">E-mail</label>
+              <input
+                type="email"
+                id="email"
+                required
+                placeholder="이메일을 입력해주세요"
+              />
+              <button type="submit" class="emailchk">중복확인</button>
+            </div>
+
+            <div class="user-pw user">
+              <label for="pw" class="req">비밀번호</label>
+              <input
+                type="password"
+                id="pw"
+                required
+                placeholder="비밀번호를 입력해주세요"
+              />
+            </div>
+
+            <div class="user-pwck user">
+              <label for="pwck" class="req">비밀번호 확인</label>
+              <input
+                type="password"
+                id="pwck"
+                required
+                placeholder="비밀번호를 확인해주세요"
+              />
+            </div>
+
+            <div class="user-birth user">
+              <label for="birth">생년월일</label>
+              <input type="date" id="birth" />
+            </div>
+
+            <div class="signup-btn">
+              <button type="submit" class="sign-btn">회원가입</button>
+              <button type="reset" class="reset-btn">재작성</button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
